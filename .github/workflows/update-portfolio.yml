@@ -2,8 +2,8 @@ name: 🚀 Update Portfolio Automatically
 
 on:
   schedule:
-    # Atualiza a cada 2 horas (00:00, 02:00, 04:00, 06:00, 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00, 22:00 UTC)
-    - cron: '0 */2 * * *'
+    # Atualiza 2 vezes por dia: 8h e 20h (horário UTC)
+    - cron: '0 8,20 * * *'
   push:
     branches: [ main ]
   workflow_dispatch: # Permite executar manualmente
