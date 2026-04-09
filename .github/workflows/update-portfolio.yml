@@ -8,6 +8,9 @@ on:
     branches: [ main ]
   workflow_dispatch: # Permite executar manualmente
 
+permissions:
+  contents: write
+
 jobs:
   update-portfolio:
     runs-on: ubuntu-latest
@@ -17,6 +20,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+        persist-credentials: true
         
     - name: 📊 Fetch GitHub Stats
       uses: actions/github-script@v7
@@ -95,7 +99,7 @@ jobs:
         git config --local user.name "Vicente Souza"
         
         # Verificar se há mudanças
-        if git diff --exit-code github-data.json > /dev/null; then
+        if git diff --quiet github-data.json README.md; then
           echo "📊 Nenhuma mudança nos dados do GitHub"
         else
           git add github-data.json README.md
@@ -104,16 +108,9 @@ jobs:
           echo "✅ Portfolio atualizado automaticamente a cada 2 horas!"
         fi
     
-    - name: 🌐 Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/main'
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: .
-        
     - name: 📱 Send Notification (opcional)
       if: success()
       run: |
         echo "🎉 Portfolio atualizado com sucesso a cada 2 horas!"
-        echo "🔗 Acesse: https://souza371.github.io/portfolio-vicente-souza/"
+        echo "🔗 Acesse: https://souza371.github.io/portfolio-vicente-souza-/"
         echo "⏰ Próxima atualização em 2 horas!"
