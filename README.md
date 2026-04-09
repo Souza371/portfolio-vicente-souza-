@@ -1,5 +1,7 @@
 # Vicente Souza | Desenvolvedor de Sistemas 🚀
 
+🔗 **Site ao vivo: [https://souza371.github.io/portfolio-vicente-souza-/](https://souza371.github.io/portfolio-vicente-souza-/)**
+
 Portfólio profissional moderno e **AUTOMATIZADO** com atualizações a cada 2 horas via GitHub Actions!
 
 ## 🎯 Sobre o Projeto
@@ -54,7 +56,9 @@ php -S localhost:8000
 
 ### Opção 2: GitHub Pages (RECOMENDADO)
 O site está **automaticamente disponível** e **se atualiza sozinho** em: 
-🔗 **https://souza371.github.io/portfolio-vicente-souza/**
+🔗 **https://souza371.github.io/portfolio-vicente-souza-/**
+
+> **URL correta** (note o hífen no final — o repositório se chama `portfolio-vicente-souza-`)
 
 ## 🤖 AUTOMATIZAÇÃO SUPER SPEED
 
