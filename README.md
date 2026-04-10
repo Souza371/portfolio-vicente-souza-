@@ -54,7 +54,7 @@ php -S localhost:8000
 
 ### Opção 2: GitHub Pages (RECOMENDADO)
 O site está **automaticamente disponível** e **se atualiza sozinho** em: 
-🔗 **https://souza371.github.io/portfolio-vicente-souza/**
+🔗 **https://souza371.github.io/portfolio-vicente-souza-/**
 
 ## 🤖 AUTOMATIZAÇÃO SUPER SPEED
 
@@ -221,7 +221,7 @@ Contribuições são sempre bem-vindas! Para contribuir:
 **Vicente Souza** - Desenvolvedor de Sistemas
 - 🐙 **GitHub:** [@Souza371](https://github.com/Souza371)  
 - 📧 **Email:** vicentedesouza762@gmail.com
-- 🌐 **Portfolio:** https://souza371.github.io/portfolio-vicente-souza/
+- 🌐 **Portfolio:** https://souza371.github.io/portfolio-vicente-souza-/
 - 🔗 **Repositório:** [portfolio-vicente-souza](https://github.com/Souza371/portfolio-vicente-souza)
 
 ## 🏆 Diferenciais Técnicos

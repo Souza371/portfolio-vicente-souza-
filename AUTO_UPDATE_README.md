@@ -34,6 +34,6 @@ node update-github-data.js
 Seu portfólio agora se atualiza **automaticamente A CADA 2 HORAS** - 12x por dia!
 
 ## 🔗 **Links Importantes:**
-- **Portfolio:** https://souza371.github.io/portfolio-vicente-souza/
+- **Portfolio:** https://souza371.github.io/portfolio-vicente-souza-/
 - **GitHub:** https://github.com/Souza371
-- **Actions:** https://github.com/Souza371/portfolio-vicente-souza/actions
+- **Actions:** https://github.com/Souza371/portfolio-vicente-souza-/actions

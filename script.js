@@ -541,7 +541,7 @@ function loadStaticProjects() {
             description: 'Site responsivo moderno com animações Matrix, tema escuro e integração com GitHub API.',
             language: 'JavaScript',
             html_url: 'https://github.com/Souza371/portfolio-vicente-souza',
-            homepage: 'https://souza371.github.io/portfolio-vicente-souza/',
+            homepage: 'https://souza371.github.io/portfolio-vicente-souza-/',
             updated_at: new Date().toISOString(),
             stargazers_count: 0
         },
