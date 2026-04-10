@@ -1,252 +1,147 @@
-# Vicente Souza | Desenvolvedor de Sistemas 🚀
+<div align="center">
 
-Portfólio profissional moderno e **AUTOMATIZADO** com atualizações a cada 2 horas via GitHub Actions!
+# 👋 Olá, eu sou o Vicente Souza
 
-## 🎯 Sobre o Projeto
+### 💻 Desenvolvedor de Sistemas | Web & Android Developer
 
-Este é meu portfólio pessoal **100% AUTOMATIZADO** que apresenta minha jornada como desenvolvedor, projetos realizados e habilidades técnicas. O site se atualiza automaticamente **a cada 2 horas** buscando novos repositórios e estatísticas do GitHub!
+🚀 Desenvolvedor apaixonado por tecnologia, criação de sistemas e soluções digitais.
 
-## ✨ Características SUPER AVANÇADAS
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vicente-souza-146b4527a/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Souza371)
+[![Portfolio](https://img.shields.io/badge/Portfolio-F59E0B?style=for-the-badge&logo=google-chrome&logoColor=white)](https://souza371.github.io/portfolio-vicente-souza-/)
+[![Email](https://img.shields.io/badge/Email-EF4444?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vicenteesouza371@gmail.com)
 
-- **🤖 AUTOMATIZAÇÃO TOTAL**: Atualiza sozinho a cada 2 horas (12x por dia!)
-- **📊 Dados Reais**: Estatísticas direto da API do GitHub
-- **⚡ Super Performance**: Cache local + fallback inteligente
-- **🎨 Design Moderno**: Tema escuro com elementos neon e animações fluidas
-- **📱 Totalmente Responsivo**: Adaptado para desktop, tablet e mobile
-- **🔄 Sistema Analytics**: Painel administrativo com métricas de visitantes
-- **🚀 PWA Ready**: Service Worker para offline
-
-## 🛠️ Tecnologias Utilizadas
-
-- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
-- **🤖 Automatização**: GitHub Actions (executa a cada 2 horas!)
-- **📊 API**: GitHub API para dados dinâmicos
-- **💾 Cache**: Sistema de cache local inteligente
-- **📈 Analytics**: Sistema próprio de analytics
-- **⚙️ PWA**: Service Worker + Manifest
-- **🎨 UI/UX**: Google Fonts (Inter, Fira Code) + Font Awesome
-- **🌐 Deploy**: GitHub Pages com CD automático
-
-## 🚀 Como Executar
-
-### Opção 1: Visualização Local
-1. Clone este repositório:
-```bash
-git clone https://github.com/Souza371/portfolio-vicente-souza.git
-```
-
-2. Navegue até a pasta do projeto:
-```bash
-cd portfolio-vicente-souza
-```
-
-3. Abra o arquivo `index.html` no seu navegador ou use um servidor local:
-```bash
-# Com Python
-python -m http.server 8000
-
-# Com Node.js (live-server)
-npx live-server
-
-# Com PHP
-php -S localhost:8000
-```
-
-### Opção 2: GitHub Pages (RECOMENDADO)
-O site está **automaticamente disponível** e **se atualiza sozinho** em: 
-🔗 **https://souza371.github.io/portfolio-vicente-souza-/**
-
-## 🤖 AUTOMATIZAÇÃO SUPER SPEED
-
-### ⚡ Atualização a Cada 2 Horas
-- **12 atualizações por dia** automaticamente!
-- **4.380 atualizações por ano** 
-- Novos repositórios aparecem em **no máximo 2 horas**
-
-### 🕐 Horários de Atualização (Brasília)
-```
-21:00, 23:00, 01:00, 03:00, 05:00, 07:00
-09:00, 11:00, 13:00, 15:00, 17:00, 19:00
-```
-
-## 📁 Estrutura AUTOMATIZADA do Projeto
-
-```
-portfolio-vicente-souza/
-├── 🤖 .github/workflows/   # GitHub Actions (AUTOMATIZAÇÃO)
-│   └── update-portfolio.yml # Workflow que executa a cada 2h
-├── 📊 github-data.json     # Cache de dados do GitHub
-├── ⚙️ update-github-data.js # Script de atualização local
-├── 🏠 index.html           # Página principal (dados dinâmicos)
-├── 🎨 styles.css           # Estilos CSS
-├── 🚀 script.js            # JavaScript + integração GitHub API
-├── 📈 analytics.js         # Sistema próprio de analytics
-├── 🔧 sw.js                # Service Worker (PWA)
-├── 📱 manifest.json        # Web App Manifest
-├── 🛡️ admin.html           # Painel administrativo
-└── 📖 README.md            # Documentação completa
-```
-
-## 🎨 Seções DINÂMICAS do Site
-
-### 1. **🏠 Home (Hero)**
-- Apresentação visual com animação Matrix
-- Links para redes sociais atualizados
-- Call-to-action para projetos e contato
-
-### 2. **👨‍💻 Sobre Mim**
-- **📊 Estatísticas GitHub REAIS** (atualizadas a cada 2h)
-- Stack de tecnologias
-- Biografia profissional
-
-### 3. **🚀 Projetos (AUTOMATIZADOS)**
-- **Busca automática** dos seus repositórios no GitHub
-- **Grid responsivo** com projetos reais
-- **Links dinâmicos** para repositórios
-- **Fallback inteligente** se API falhar
-
-### 4. **📧 Contato**
-- Formulário funcional de contato
-- Links para redes sociais
-- **Analytics integrado** para rastreamento
-
-### 5. **🛡️ Admin Dashboard**
-- Painel administrativo mobile-friendly
-- Métricas de visitantes em tempo real
-- Sistema de analytics próprio
-
-## 🔧 Personalização
-
-### Adicionar Sua Foto
-1. Adicione sua foto em `assets/images/profile/`
-2. Atualize o HTML na seção "Sobre":
-```html
-<img src="assets/images/profile/sua-foto.jpg" alt="Vicente Souza" />
-```
-
-### Adicionar Screenshots dos Projetos
-1. Adicione screenshots em `assets/images/projects/`
-2. Atualize o background-image no CSS:
-```css
-.project-image {
-    background-image: url('assets/images/projects/projeto.png');
-}
-```
-
-### Personalizar Informações
-Edite as seguintes seções no `index.html`:
-- **Links sociais**: Atualize URLs do GitHub, LinkedIn, etc.
-- **Informações de contato**: E-mail, telefone, WhatsApp
-- **Projetos**: Adicione/edite seus projetos
-- **Tecnologias**: Atualize sua stack atual
-
-### Personalizar Cores
-No arquivo `styles.css`, modifique as variáveis CSS:
-```css
-:root {
-    --neon-blue: #00d4ff;      /* Cor principal */
-    --neon-purple: #8b5cf6;     /* Cor secundária */
-    --neon-green: #00ff88;      /* Cor de destaque */
-}
-```
-
-## 📱 Responsividade
-
-O site está otimizado para:
-- **Desktop**: 1920px+
-- **Laptop**: 1024px - 1919px
-- **Tablet**: 768px - 1023px
-- **Mobile**: até 767px
-
-## ⚡ Performance
-
-- **Lazy loading** para imagens
-- **Otimização de animações** com requestAnimationFrame
-- **Compressão de recursos**
-- **Minificação de CSS/JS** (recomendada para produção)
-
-## 🌐 Deploy no GitHub Pages
-
-1. **Fork ou Clone** este repositório
-2. **Configure o GitHub Pages**:
-   - Vá em Settings → Pages
-   - Source: Deploy from a branch
-   - Branch: main / (root)
-3. **Acesse** seu site em: `https://seu-usuario.github.io/nome-do-repositorio/`
-
-### 🤖 Automatização SUPER SPEED (JÁ IMPLEMENTADA!)
-**✅ GitHub Actions já está configurada e funcionando!**
-
-O workflow **EXECUTA A CADA 2 HORAS** automaticamente:
-```yaml
-# .github/workflows/update-portfolio.yml (JÁ CRIADO!)
-name: 🚀 Update Portfolio Automatically
-
-on:
-  schedule:
-    - cron: '0 */2 * * *'  # A cada 2 horas!
-```
-
-### 🎯 O que a Action faz:
-- ✅ Busca dados atualizados da API do GitHub
-- ✅ Salva no arquivo `github-data.json`
-- ✅ Faz commit automático com nome "Vicente Souza"
-- ✅ Deploy automático no GitHub Pages
-- ✅ Executa 12x por dia, 4.380x por ano!
-
-**Resultado: Portfolio sempre atualizado automaticamente!** 🚀
-
-## 🤝 Contribuindo
-
-Contribuições são sempre bem-vindas! Para contribuir:
-
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
-## 🎯 Estatísticas em Tempo Real
-
-- **📦 80+ Repositórios** no GitHub
-- **⭐ 15+ Stars** totais
-- **🔤 10+ Linguagens** diferentes
-- **🤖 Atualizações**: A cada 2 horas automaticamente!
-- **📈 Visitantes**: Sistema de Analytics próprio
-
-*Última atualização: Dezembro 2025*
-
-## �📧 Contato
-
-**Vicente Souza** - Desenvolvedor de Sistemas
-- 🐙 **GitHub:** [@Souza371](https://github.com/Souza371)  
-- 📧 **Email:** vicentedesouza762@gmail.com
-- 🌐 **Portfolio:** https://souza371.github.io/portfolio-vicente-souza-/
-- 🔗 **Repositório:** [portfolio-vicente-souza](https://github.com/Souza371/portfolio-vicente-souza)
-
-## 🏆 Diferenciais Técnicos
-
-- ✅ **Portfolio 100% automatizado** (único no GitHub!)
-- ✅ **GitHub Actions** executando a cada 2 horas
-- ✅ **Sistema de Analytics** próprio
-- ✅ **PWA Ready** com Service Worker
-- ✅ **Cache inteligente** API + Local + Fallback
-- ✅ **Mobile-first** e totalmente responsivo
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Sinta-se livre para usar como base para seu próprio portfolio!
+</div>
 
 ---
 
-### 🚀 **PORTFOLIO AUTOMATIZADO - A CADA 2 HORAS!**
-⭐ **Se este projeto te inspirou, considere dar uma estrela!** ⭐
+## 🎯 Sobre Mim
 
-*Desenvolvido com ❤️ por **Vicente Souza** (@Souza371)*
+Sou **Desenvolvedor de Sistemas** formado em **Análise e Desenvolvimento de Sistemas** e atualmente cursando **Engenharia de Software**.
+
+Tenho experiência prática na criação de aplicações **Web** e **Android**, utilizando boas práticas de programação, versionamento com Git/GitHub e organização de projetos reais publicados em portfólio.
+
+💡 **Foco atual:**
+- Desenvolvimento Web (HTML5, CSS3, JavaScript)
+- Desenvolvimento Android (Kotlin, Jetpack Compose)
+- APIs REST e Banco de Dados
+- Evolução contínua na área de tecnologia
 
 ---
-**📅 Última atualização:** 01 de Dezembro de 2025  
-**🤖 Status:** AUTOMATIZAÇÃO ATIVA - Atualiza a cada 2 horas!
-**🎯 Versão:** 2.0 - Portfolio Profissional Completo
 
-Desenvolvedor de Sistemas focado em soluções práticas e eficientes. Experiência em HTML, CSS, JavaScript, Python e SQL. Apaixonado por tecnologia, automação e interfaces funcionais.
+## 🛠️ Tecnologias e Ferramentas
+
+### 💻 Linguagens
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+### 🌐 Desenvolvimento Web
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+### 📱 Mobile
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=android&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+
+### 🗄️ Banco de Dados
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+
+### ⚙️ Ferramentas & DevOps
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+---
+
+## 📁 Projetos em Destaque
+
+### 🎯 Principais Projetos
+
+| Projeto | Tecnologia | Descrição |
+|---------|-----------|-----------|
+| **Gerenciador de Projetos de Engenharia** | Python, JavaScript, HTML, CSS | Sistema colaborativo com dashboard interativo |
+| **Movie Explorer App** | Kotlin, Jetpack Compose | App Android moderno para busca de filmes |
+| **Guincho On Demand** | TypeScript, Python | Plataforma de intermediação de serviços |
+| **Spring Security JWT Demo** | Java, Spring Boot | API segura com autenticação JWT |
+| **Portfolio Automatizado** | HTML5, CSS3, JavaScript | Portfólio com atualização automática via GitHub Actions |
+
+👉 **Veja todos os 20+ projetos:**  
+🌐 **[https://souza371.github.io/portfolio-vicente-souza-/](https://souza371.github.io/portfolio-vicente-souza-/)**
+
+---
+
+## 📊 Estatísticas GitHub
+
+<div align="center">
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Souza371&show_icons=true&theme=tokyonight&count_private=true)](https://github.com/Souza371)
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Souza371&layout=compact&theme=tokyonight)](https://github.com/Souza371)
+
+**80+ Repositórios** | **20+ Projetos em Destaque** | **Open to Work** ✅
+
+</div>
+
+---
+
+## 🎓 Formação Acadêmica
+
+- 🎓 **Análise e Desenvolvimento de Sistemas** - Completo ✅
+- 🎓 **Engenharia de Software** - Em Andamento 🔄
+
+---
+
+## 📚 O que Estou Aprendendo
+
+- GitHub Actions (CI/CD Automation)
+- React Hooks & Advanced Patterns
+- API REST Design
+- JWT Authentication
+- Material Design 3
+- Progressive Web Apps (PWA)
+- Jetpack Compose Advanced
+- Arquitetura de Software
+
+---
+
+## 💼 Aberto a Oportunidades
+
+🚀 **Buscando oportunidade como:**
+
+- ✅ Desenvolvedor Júnior
+- ✅ Desenvolvedor Web
+- ✅ Desenvolvedor Android
+- ✅ Analista de Sistemas
+- ✅ Full Stack Developer
+
+💬 Sempre aberto para aprender, colaborar e evoluir na área de tecnologia!
+
+---
+
+## 📬 Entre em Contato
+
+- 💼 **LinkedIn:** [linkedin.com/in/vicente-souza](https://www.linkedin.com/in/vicente-souza-146b4527a/)
+- 💻 **GitHub:** [github.com/Souza371](https://github.com/Souza371)
+- 🌐 **Portfolio:** [souza371.github.io/portfolio-vicente-souza-/](https://souza371.github.io/portfolio-vicente-souza-/)
+- 📧 **Email:** [vicenteesouza371@gmail.com](mailto:vicenteesouza371@gmail.com)
+
+---
+
+<div align="center">
+
+### ⭐ *"Aprender continuamente é o verdadeiro diferencial de um desenvolvedor."*
+
+**Obrigado por visitar meu portfólio!**  
+Sinta-se livre para me contatar para discussões sobre projetos, oportunidades ou colaborações.
+
+</div>
