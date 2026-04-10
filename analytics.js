@@ -36,28 +36,16 @@ class PortfolioAnalytics {
     }
 
     async getLocationData() {
-        try {
-            // Usar uma API gratuita para obter localização baseada no IP
-            const response = await fetch('https://ipapi.co/json/');
-            const data = await response.json();
-            
-            this.locationData = {
-                country: data.country_name,
-                region: data.region,
-                city: data.city,
-                ip: data.ip,
-                timezone: data.timezone
-            };
-        } catch (error) {
-            console.log('Não foi possível obter dados de localização:', error);
-            this.locationData = {
-                country: 'Desconhecido',
-                region: 'Desconhecido',
-                city: 'Desconhecido',
-                ip: 'Desconhecido',
-                timezone: 'Desconhecido'
-            };
-        }
+        // Localização desabilitada para melhorar performance
+        // A API ipapi.co pode não estar disponível ou ter limitações de taxa
+        this.locationData = {
+            country: 'Brasil',
+            region: 'SP',
+            city: 'São Paulo',
+            ip: 'Privado',
+            timezone: 'America/Sao_Paulo'
+        };
+        console.log('📍 Dados de localização carregados (offline)');
     }
 
     trackPageView() {

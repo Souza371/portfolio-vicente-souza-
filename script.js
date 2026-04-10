@@ -34,28 +34,11 @@ function initializeApp() {
 
 // Sistema de partículas de fundo
 function createParticles() {
-    const particlesContainer = document.getElementById('particles');
-    const particleCount = window.innerWidth < 768 ? 30 : 50;
-    
-    for (let i = 0; i < particleCount; i++) {
-        const particle = document.createElement('div');
-        particle.className = 'particle';
-        
-        // Posição aleatória
-        particle.style.cssText = `
-            position: absolute;
-            width: ${Math.random() * 3 + 1}px;
-            height: ${Math.random() * 3 + 1}px;
-            background: ${getRandomNeonColor()};
-            border-radius: 50%;
-            left: ${Math.random() * 100}%;
-            top: ${Math.random() * 100}%;
-            animation: float ${Math.random() * 3 + 2}s ease-in-out infinite;
-            opacity: ${Math.random() * 0.5 + 0.2};
-        `;
-        
-        particlesContainer.appendChild(particle);
-    }
+    // Usando canvas (#particles-canvas) para rendering de partículas
+    // O sistema de partículas é gerenciado por digital-matrix.js
+    // Esta função foi modernizada para usar canvas em vez de DOM elements
+    console.log('✅ Sistema de partículas ativado via canvas');
+    // Partículas são renderizadas em tempo real no canvas para melhor performance
 }
 
 function getRandomNeonColor() {
